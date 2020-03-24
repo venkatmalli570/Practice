@@ -6,7 +6,7 @@ function Hooks(props) {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    console.log("develop Branch");
+    console.log("develop Branch ++ present feature branch push");
     document.title = `React Hooks count `+ count;
     
   });
